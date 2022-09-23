@@ -8,7 +8,7 @@ svg {
 
 #background {
   width: calc(100% - 10px);
-  height: calc(100% - 10px);
+  height: calc(100% - 30px);
   fill: white;
   stroke: rgb(225, 228, 232);
   stroke-width: 1px;
@@ -86,7 +86,7 @@ tr {
 <div xmlns="http://www.w3.org/1999/xhtml">
 
 <table>
-<thead><tr style="transform: translateX(0); visibility: hidden;">
+<thead style="display: none;"><tr style="transform: translateX(0);">
 <th colspan="2">{{ name }}'s GitHub Statistics</th>
 </tr></thead>
 <tbody>
