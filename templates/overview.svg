@@ -86,7 +86,7 @@ tr {
 <div xmlns="http://www.w3.org/1999/xhtml">
 
 <table>
-<thead><tr style="transform: translateX(0);">
+<thead><tr style="transform: translateX(0); visibility: hidden;">
 <th colspan="2">{{ name }}'s GitHub Statistics</th>
 </tr></thead>
 <tbody>
